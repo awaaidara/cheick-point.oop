@@ -1,0 +1,61 @@
+/* .navbar-brand {
+  color: green !important;
+} */
+
+/* Réinitialisation des marges et des paddings par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ajouté pour une gestion uniforme des bordures et des paddings */
+  }
+  
+  /* Icônes */
+  i {
+    font-size: 35px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: black;
+  }
+  
+  /* Mise en page principale */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Conteneur du panier d'achat */
+  .shopping-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 50px 0;
+  }
+  
+  /* Prix total */
+  .total-price span {
+    font-size: 30px;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  
+  /* Liste des produits */
+  .list-products {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+  }
+  .like{
+        color: black;
+        font-size: 40px;
+        cursor: pointer;
+
+  }
+   
+    
